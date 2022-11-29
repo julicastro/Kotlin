@@ -1,7 +1,10 @@
 package fundamentos
 
+import java.util.*
+
 fun main() {
     mostrarMensaje(4)
+    mostrarFecha ()
 }
 
 // SHIFT + SHIFT BUSCA EN TODO EL PROYECTO
@@ -22,5 +25,13 @@ fun mostrarMensaje(codigo: Int) {
     }
 }
 
+fun mostrarFecha (){
+
+    println("""
+        Mensaje: Hola desde Kotlin
+        Fecha: ${Date()}
+    """.trimIndent())
+
+}
 
 
