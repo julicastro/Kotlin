@@ -1,4 +1,4 @@
-package fundamentos
+package `01-fundamentos`
 
 import java.text.DecimalFormat
 import kotlin.math.ceil

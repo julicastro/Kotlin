@@ -1,4 +1,4 @@
-package ejercicios
+package `00-ejercicios`
 
 var calle = "";
 var ciudad = "";
